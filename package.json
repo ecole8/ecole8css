@@ -1,0 +1,28 @@
+{
+  "name": "ecole8css",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "inuitcss": "^6.0.0"
+  },
+  "devDependencies": {
+    "stylelint": "^9.6.0",
+    "stylelint-scss": "^3.3.1"
+  },
+  "scripts": {
+    "sass": "sass main.scss:main.css",
+    "lint": "./node_modules/.bin/stylelint \"**/*.scss\" --syntax scss",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ecole8/ecole8css.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ecole8/ecole8css/issues"
+  },
+  "homepage": "https://github.com/ecole8/ecole8css#readme"
+}
